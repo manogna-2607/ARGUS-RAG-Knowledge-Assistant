@@ -3,8 +3,9 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Arena Next.js PostgreSQL Starter",
-  description: "Starter template with Next.js, Drizzle, and PostgreSQL.",
+  title: "ARGUS — AI Knowledge Engine",
+  description:
+    "A grounded Retrieval-Augmented Generation (RAG) knowledge assistant that transforms documents into searchable knowledge and provides evidence-backed answers with source citations.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
